@@ -1,0 +1,116 @@
+body{
+    margin:50px;
+    background:pink;
+    margin-top:0px;
+}
+.container{
+    float:left;
+    display:flex;
+   
+}
+.btn{
+    border:black;
+    background: white;
+    font-size:x-large;
+    float:left;
+    padding:10px  20px;
+    cursor: pointer;
+    margin:30px;
+    color: green ;
+    justify-content:centre;
+    align-items: centre;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 4px 4px 4px 4px green;
+    display:flex;
+
+}
+/* .btn2{
+    border:black;
+    background: white;
+    font-size:x-large;
+    float:left;
+    padding:10px  20px;
+    cursor: pointer;
+    margin:30px;
+    color: green ;
+    justify-content:centre;
+    align-items: centre;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 4px 4px 4px 4px green;
+    display:flex;
+
+} 
+ .btn3{
+    border:black;
+    background: white;
+    font-size:x-large;
+    float:left;
+    padding:10px  20px;
+    cursor: pointer;
+    margin:30px;
+    color: green ;
+    justify-content:centre;
+    align-items: centre;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 4px 4px 4px 4px green;
+    display:flex;
+
+} 
+ .btn4{
+    border:black;
+    background: white;
+    font-size:x-large;
+    float:left;
+    padding:10px  20px;
+    cursor: pointer;
+    margin:30px;
+    color: green ;
+    justify-content:centre;
+    align-items: centre;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 4px 4px 4px 4px green;
+    display:flex;
+
+} */
+embed{
+    width:90%;
+    margin:auto;
+    background-color: white;
+    margin-top:30px;
+    margin-left:40px;
+    height:500px;
+    border-radius:2px;
+
+}
+.arrow::before{
+    height: 20px;
+    width: 20px;
+    content: '';
+    background-color: blue;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 80%;
+    left: 30%;
+}
+.pdf{
+    display:none;
+}
+.active{
+    display:block;
+}
+
+
+.activebtn{
+    background-color:blue;
+    color:white;
+}
+button:hover{
+     background-color: blue;
+     color:white;
+}
+
+    
